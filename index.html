@@ -1,125 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Artistically | Personalized Gifts</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Artistically</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+<!-- HEADER -->
 <header class="header">
   <div class="container header-container">
-    <a href="#" class="logo">
+    
+    <div class="logo">
       <img src="logo.png" alt="Artistically Logo">
       <span>Artistically</span>
-    </a>
+    </div>
 
     <nav class="nav">
       <ul>
+        <li><a href="#">Home</a></li>
+
+        <li><a href="#about">About</a></li>
+
         <li><a href="#products">Products</a></li>
-        <li><a href="#video">Process</a></li>
-        <li><a href="#newsletter">Newsletter</a></li>
+
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+
   </div>
 </header>
 
+<!-- HERO -->
 <section class="hero">
   <div class="hero-content">
-    <h1>Make Every Gift <span>Truly Personal</span></h1>
-    <p>Turn memories into beautifully crafted mugs, shirts, and keychains made just for the people you love.</p>
-    <a href="#products" class="btn btn-primary">Shop Personalized Gifts</a>
+    <h1>Simple Gifts,<br><span>Meaningful Moments.</span></h1>
+    <p>Personalized items crafted with care and modern style.</p>
+    <a href="#products" class="btn-primary">Shop Now</a>
   </div>
 </section>
 
-<section class="features container">
-  <div class="feature">
-    <h3>Fully Customized</h3>
-    <p>Your message. Your design. Your story.</p>
-  </div>
-  <div class="feature">
-    <h3>Fast Delivery</h3>
-    <p>Handcrafted with care and delivered on time.</p>
-  </div>
-  <div class="feature">
-    <h3>Made With Love</h3>
-    <p>Every gift is created to make someone smile.</p>
-  </div>
+<!-- ABOUT -->
+<section id="about" class="container about">
+  <h2 class="section-title">About Artistically</h2>
+  <p>
+    Artistically was created with one simple belief — that everyday items can carry meaning, memories, and personality. In a world filled with mass-produced products, we focus on creating personalized pieces that feel intentional, thoughtful, and uniquely yours.<br><br>We specialize in customized gifts and lifestyle items designed for modern living. From personalized mugs and shirts to creative accessories and keepsakes, each product is made to help people express themselves, celebrate relationships, and capture important moments.
+  </p>
 </section>
 
-<section id="products" class="products container">
-  <h2>Our Best Sellers</h2>
+<!-- PRODUCTS -->
+<section id="products" class="container products">
+  <h2 class="section-title">Featured Products</h2>
 
   <div class="product-grid">
+
     <div class="product-card">
-      <span class="badge">Best Seller</span>
-      <img src="mug.webp" alt="Custom Mug">
+      <img src="mug.webp">
       <h3>Custom Mug</h3>
-      <p>Perfect for daily reminders and warm mornings.</p>
-      <div class="price">₱199</div>
-      <a href="#" class="btn">Personalize</a>
+      <p class="price">₱199</p>
+      <button class="btn-outline">Add to Cart</button>
     </div>
 
     <div class="product-card">
-      <span class="badge">Popular</span>
-      <img src="shirt.jpg" alt="Custom T-Shirt">
-      <h3>Custom T-Shirt</h3>
-      <p>Create wearable memories with your own design.</p>
-      <div class="price">₱349</div>
-      <a href="#" class="btn">Personalize</a>
+      <img src="shirt.jpg">
+      <h3>Custom Shirt</h3>
+      <p class="price">₱349</p>
+      <button class="btn-outline">Add to Cart</button>
     </div>
 
     <div class="product-card">
-      <span class="badge">Gift Idea</span>
-      <img src="keyy.jpg" alt="Engraved Keychain">
-      <h3>Engraved Keychain</h3>
-      <p>A small keepsake with a big meaning.</p>
-      <div class="price">₱139</div>
-      <a href="#" class="btn">Personalize</a>
+      <img src="keyy.jpg">
+      <h3>Keychain</h3>
+      <p class="price">₱129</p>
+      <button class="btn-outline">Add to Cart</button>
     </div>
+
+    <div class="product-card">
+      <img src="notebook.webp">
+      <h3>Notebook</h3>
+      <p class="price">₱149</p>
+      <button class="btn-outline">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="tote.webp">
+      <h3>Tote Bag</h3>
+      <p class="price">₱299</p>
+      <button class="btn-outline">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="frame.jpg">
+      <h3>Photo Frame</h3>
+      <p class="price">₱399</p>
+      <button class="btn-outline">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="case.webp">
+      <h3>Phone Case</h3>
+      <p class="price">₱119</p>
+      <button class="btn-outline">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="sticker.webp">
+      <h3>Sticker Pack</h3>
+      <p class="price">₱99</p>
+      <button class="btn-outline">Add to Cart</button>
+    </div>
+
   </div>
 </section>
 
-<section id="video" class="video-section container">
-  <h2>How We Personalize Your Gifts</h2>
-  <div class="video-wrapper">
-    <video controls poster="thumbnail.png">
-      <source src="video.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-</section>
-
-<section id="newsletter" class="newsletter container">
-  <h2>Get 10% Off Your First Order</h2>
-  <p>Subscribe for exclusive offers and gift inspiration.</p>
-
-  <form class="newsletter-form">
-    <input type="email" placeholder="Enter your email" required>
-    <button type="submit" class="btn btn-primary">Subscribe</button>
-  </form>
-</section>
-
+<!-- TESTIMONIALS -->
 <section class="testimonials container">
-  <h2>What Our Customers Say</h2>
+  <h2 class="section-title">Reviews</h2>
 
   <div class="testimonial-grid">
     <div class="testimonial">
-      <p>“The quality was amazing and delivery was fast. My mom loved her mug!”</p>
+      <p>“Clean design and amazing quality.”</p>
       <h4>— Anna M.</h4>
     </div>
 
     <div class="testimonial">
-      <p>“Very affordable and beautifully made. Highly recommended.”</p>
+      <p>“Fast delivery and beautiful products.”</p>
       <h4>— Joshua L.</h4>
     </div>
+
+    <div class="testimonial">
+  <p>“Highly recommended!”</p>
+  <h4>— Camille R.</h4>
+</div>
   </div>
 </section>
 
-<footer class="footer">
-  <p>&copy; 2026 Artistically. All Rights Reserved.</p>
-</footer>
+<!-- FOOTER -->
+<div class="footer-wrapper">
+  <footer id="contact" class="footer">
+    <div class="footer-container">
+      <div class="footer-flex">
+        <!-- LEFT: Contact Info -->
+        <div class="contact-info">
+          <p>Website: <a target="_blank">www.artistically.com</a></p>
+          <p>Email: <a>mail@artistically.com</a></p>
+          <p>Phone: <a>+63 912 345 6789</a></p>
+        </div>
+
+        <!-- RIGHT: Social Media -->
+        <div class="socials">
+          <a target="_blank" aria-label="Facebook">
+            <img src="facebook.png" alt="Facebook Logo">
+          </a>
+          <a target="_blank" aria-label="Instagram">
+            <img src="instagram.png" alt="Instagram Logo">
+          </a>
+          <a target="_blank" aria-label="TikTok">
+            <img src="tiktok.png" alt="TikTok Logo">
+          </a>
+        </div>
+      </div>
+
+       <!-- Legal Links -->
+      <div class="footer-legal">
+        <a target="_blank">Terms & Conditions</a>
+        <span>|</span>
+        <a target="_blank">Privacy Policy</a>
+      </div>
+
+      <p class="copyright">© 2026 Artistically</p>
+    </div>
+  </footer>
+</div>
 
 </body>
 </html>
